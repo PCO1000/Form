@@ -1,28 +1,23 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     margin: 40%;
     margin-top: 3%;
 }
-li{
-    display: inline;
-}
-ul{
-    list-style: none;
-}
-
 .key{
     border: 1px solid lightgray;
     padding: 5px;
    
 }
-
-
 .pass{
     display: flex;
     justify-content:space-between;
 }
-.new{
+.new-client{
     display: flex;
     align-items: center;
+    
 
 }
 .newhr{
@@ -31,15 +26,45 @@ ul{
 
 }
 #continue{
-    width: 230px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: rgb(255, 183, 0);
     border-color: rgb(255, 183, 0);
 }
-#pwd{
-    width: 230px;
+#password{
+    width: 96%;
+    margin-bottom: 2%
 }
-#ema{
-    width: 230px;
+#email{
+    width: 96%;
+    margin-bottom: 5%;
+}
+.copy{
+    display: inline flex;
+    font-size: x-small;
+    justify-content: center;
+}
+.end{
+    display: flex block;
+    text-decoration: none;
+    font-size: x-small;
+    justify-content: space-evenly;
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    
+}
+#new{
+    width: 100%;
+    margin-top: 0%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
 }
